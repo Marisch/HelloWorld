@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+@font-face { 
+    font-family: 'avenir-font';
+    src: url(/app/resources/css/fonts/Avenir.ttc);
+}
+
+html {
+
+    background-color: slateblue;
+    background-image: linear-gradient(335deg, rgb(60, 36, 128) 0%, rgb(2, 168, 197) 100%);
+    background-attachment: fixed;  
+}
+
+body {
+    height: 100%;
+    font-size: 10px;
+}
+
+header {
+    position: relative;
+    height: 100px; 
+    text-align: center;
+}
+
+content {
+    position: relative;
+    width: 100%; 
+    margin: auto;
+}
+
+.center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.output {
+    font-size: 30px;
+    padding-top: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

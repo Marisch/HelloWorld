@@ -8,7 +8,6 @@ class Controller {
     }
 
     showHelloWorld(){
-        console.log("test");
         output.innerHTML = helloWorld;
     }
 
